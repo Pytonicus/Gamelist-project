@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'ARCADECLASSIC';
+    src: 
+    local('ARCADECLASSIC'),
+    url(ARCADECLASSIC.TTF) format('truetype');
+}
+
+@font-face{
+    font-family: 'Yoster';
+    src:
+    local('yoster'),
+    url(yoster.ttf) format('truetype');
+}
+
+body{
+    margin: 0 auto;
+    background: #999AC6;
+    color: #0C120C;
+    font-family: "ARCADECLASSIC";
+}
+
+h2 {
+    color: #E8EBE4;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #999AC6;
+}
+
+p{
+    font-family: "Yoster";
+    color: #7353BA;
+}
+
+header{
+    height: 100px;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+    .title img {
+        padding-top: 12px!important;
+        height: 50px;
+    }
+    .title img, h2{
+
+        padding: 0px 18px;
+    }
+
+.menu{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .menu a {
+        padding: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #E8EBE4;
+    }
+
+main {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #E8EBE4;
+    width: 70%;
+    border: 25px solid #D2D5DD;
+    box-shadow: 0px 0px 0px 25px #B8BACF;
+    border-radius: 50px;
+    margin-bottom: 70px;
+}
